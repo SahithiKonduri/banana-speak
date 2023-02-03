@@ -6,33 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
-    <style>
-        textarea {
-            height: 5rem;
-            display: block;
-            width: 30rem;
-            padding: 1rem;
-            margin: 1rem;
-        }
-
-        #output {
-            border: 1px solid black;
-            margin: 1rem;
-            padding: 1rem;
-            width: 30rem;
-            height: 4rem;
-        }
-    </style>
 
 </head>
 
 <body>
-    <h1>Hello JavaScript!!!</h1>
-    <textarea id="txt-input" placeholder="Please type in English.....">Hello</textarea>
-    <button id="btn-translate">Translate</button>
-    <h3>Translated text 👇</h3>
-    <div id="output">kjljxbmc nz</div>
+    <link href="styles.css" rel="stylesheet" />
+
+    <h2 class="header">Banana talk</h2>
+    <img src="images/minion2.jpg" height="300" width="400">
+    <div class="center-container">
+        <textarea id="txt-input" placeholder="Please type a sentence in English....."></textarea>
+        <button id="btn-translate">Translate</button>
+        <h3 style="padding-left:1rem;">Translated text appears here👇</h3>
+        <div id="output"></div>
+    </div>
+    <div class="footer">
+        <h2>about</h2>
+        <p class="center-container" style="font-size:large;">Are you a fan of minions? Did you know that the gibberish
+            they say is an acutal language. Use the translator to convert text from English to Minion speak or Banana
+            language.</p>
+        <ul class="non-bullet-list">
+            <li class="inline-list">
+                <a class="link" href="https://github.com/SahithiKonduri">Github</a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://twitter.com/Sahithi_Konduri">Twitter</a>
+            </li>
+            <li class="inline-list">
+                <a class="link" href="https://www.linkedin.com/in/sahithi-konduri">LinkedIn</a>
+            </li>
+        </ul>
+    </div>
     <script src="app.js" type="text/javascript"></script>
 </body>
-
 </html>
